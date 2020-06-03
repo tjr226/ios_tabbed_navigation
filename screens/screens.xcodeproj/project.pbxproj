@@ -13,6 +13,10 @@
 		2217ECB42487E99300AF8322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2217ECB22487E99300AF8322 /* Main.storyboard */; };
 		2217ECB62487E99400AF8322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2217ECB52487E99400AF8322 /* Assets.xcassets */; };
 		2217ECB92487E99400AF8322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2217ECB72487E99400AF8322 /* LaunchScreen.storyboard */; };
+		2217ECC12487EF8C00AF8322 /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2217ECC02487EF8C00AF8322 /* NumberedViewController.swift */; };
+		2217ECC32487EFA000AF8322 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2217ECC22487EFA000AF8322 /* RedViewController.swift */; };
+		2217ECC62487FB5200AF8322 /* Colors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2217ECC42487FB5200AF8322 /* Colors.storyboard */; };
+		2217ECC92488003600AF8322 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2217ECC82488003600AF8322 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2217ECB52487E99400AF8322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2217ECB82487E99400AF8322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2217ECBA2487E99400AF8322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2217ECC02487EF8C00AF8322 /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		2217ECC22487EFA000AF8322 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		2217ECC52487FB5200AF8322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = screens/Base.lproj/Colors.storyboard; sourceTree = "<group>"; };
+		2217ECC82488003600AF8322 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				2217ECAC2487E99300AF8322 /* AppDelegate.swift */,
 				2217ECAE2487E99300AF8322 /* SceneDelegate.swift */,
 				2217ECB02487E99300AF8322 /* ViewController.swift */,
-				2217ECB22487E99300AF8322 /* Main.storyboard */,
+				2217ECC72487FBAC00AF8322 /* Storyboards */,
+				2217ECC02487EF8C00AF8322 /* NumberedViewController.swift */,
+				2217ECC22487EFA000AF8322 /* RedViewController.swift */,
 				2217ECB52487E99400AF8322 /* Assets.xcassets */,
 				2217ECB72487E99400AF8322 /* LaunchScreen.storyboard */,
 				2217ECBA2487E99400AF8322 /* Info.plist */,
 			);
 			path = screens;
+			sourceTree = "<group>";
+		};
+		2217ECC72487FBAC00AF8322 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2217ECB22487E99300AF8322 /* Main.storyboard */,
+				2217ECC82488003600AF8322 /* Profile.storyboard */,
+				2217ECC42487FB5200AF8322 /* Colors.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,8 @@
 			files = (
 				2217ECB92487E99400AF8322 /* LaunchScreen.storyboard in Resources */,
 				2217ECB62487E99400AF8322 /* Assets.xcassets in Resources */,
+				2217ECC92488003600AF8322 /* Profile.storyboard in Resources */,
+				2217ECC62487FB5200AF8322 /* Colors.storyboard in Resources */,
 				2217ECB42487E99300AF8322 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2217ECC32487EFA000AF8322 /* RedViewController.swift in Sources */,
+				2217ECC12487EF8C00AF8322 /* NumberedViewController.swift in Sources */,
 				2217ECB12487E99300AF8322 /* ViewController.swift in Sources */,
 				2217ECAD2487E99300AF8322 /* AppDelegate.swift in Sources */,
 				2217ECAF2487E99300AF8322 /* SceneDelegate.swift in Sources */,
@@ -161,6 +185,14 @@
 				2217ECB82487E99400AF8322 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2217ECC42487FB5200AF8322 /* Colors.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2217ECC52487FB5200AF8322 /* Base */,
+			);
+			name = Colors.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
